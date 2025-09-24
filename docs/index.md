@@ -1,3 +1,7 @@
+---
+description: "Site officiel du FC-Fulbert : actualités, joueurs, matchs, résultats et l'histoire du club."
+---
+
 # Bienvenue au FC Fulbert ⚽
 
 Bienvenue sur le site officiel du **FC Fulbert** !  
