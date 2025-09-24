@@ -1,0 +1,8 @@
+docs/
+  index.md
+  effectif.md
+  matchs.md
+  robots.txt   
+User-agent: *
+Allow: /
+Sitemap: https://cleptiot.github.io/FC-Fulbert/sitemap.xml
