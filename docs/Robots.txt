@@ -1,0 +1,5 @@
+docs/
+  index.md
+  effectif.md
+  matchs.md
+  robots.txt   

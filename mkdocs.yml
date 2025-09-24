@@ -26,3 +26,16 @@ nav:
   - Matchs: matchs.md
   - Actualités: actualites.md
   - Contact: contact.md
+pages:
+  - Accueil: index.md
+  - Effectif: effectif.md
+extra:
+  seo:
+    index.md:
+      title: "FC Fulbert - Accueil"
+      description: "Site officiel du FC Fulbert : actualités, matchs, résultats et effectif."
+      keywords: "football, FC Fulbert, club, résultats, joueurs"
+    effectif.md:
+      title: "Effectif FC Fulbert"
+      description: "Découvrez l'effectif 2025 du FC Fulbert : joueurs, postes et statistiques."
+      keywords: "joueurs, effectif FC Fulbert, football"
