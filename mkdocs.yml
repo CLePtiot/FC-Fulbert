@@ -21,3 +21,8 @@ plugins:
       keywords: football, FC Fulbert, résultats, joueurs, matchs
 nav:
   - Accueil: index.md
+  - Histoire: histoire.md
+  - Effectif: effectif.md
+  - Matchs: matchs.md
+  - Actualités: actualites.md
+  - Contact: contact.md
