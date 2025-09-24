@@ -19,3 +19,5 @@ plugins:
       site_name: FC Fulbert
       description: Actualités et infos du FC Fulbert
       keywords: football, FC Fulbert, résultats, joueurs, matchs
+nav:
+  - Accueil: index.md
