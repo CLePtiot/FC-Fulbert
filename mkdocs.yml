@@ -1,1 +1,21 @@
-site_name: My Docs
+site_name: FC Fulbert
+site_url: https://Fc-Fulbert.com
+site_description: Site officiel du FC Fulbert - actualités, joueurs, résultats et infos du club.
+theme:
+  name: material
+  language: fr
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/FCFulbert
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/FCFulbert
+plugins:
+  - search
+  - sitemap:
+      changefreq: daily
+      priority: 0.5
+  - seo:
+      site_name: FC Fulbert
+      description: Actualités et infos du FC Fulbert
+      keywords: football, FC Fulbert, résultats, joueurs, matchs
