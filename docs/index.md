@@ -1,5 +1,7 @@
 ---
-description: "Site officiel du FC-Fulbert : actualités, joueurs, matchs, résultats et l'histoire du club."
+title: "FC Fulbert - Accueil"
+description: "Site officiel du FC Fulbert : actualités, matchs, résultats et effectif."
+keywords: "football, FC Fulbert, club, résultats, joueurs"
 ---
 
 # Bienvenue au FC Fulbert ⚽
@@ -9,7 +11,4 @@ Retrouvez ici :
 - 📰 Les actualités du club  
 - 👥 L’effectif et les joueurs  
 - 📅 Les matchs et résultats  
-- 📖 L’histoire du club  
-
----
-© 2025 FC Fulbert
+- 📖 L’histoire du club

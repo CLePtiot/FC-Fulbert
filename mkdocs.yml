@@ -1,24 +1,18 @@
 site_name: FC Fulbert
 site_url: https://cleptiot.github.io/FC-Fulbert/
 site_description: Site officiel du FC Fulbert - actualités, joueurs, résultats et infos du club.
+
 theme:
   name: material
   language: fr
+
 extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/FCFulbert
     - icon: fontawesome/brands/facebook
       link: https://facebook.com/FCFulbert
-plugins:
-  - search
-  - sitemap:
-      changefreq: daily
-      priority: 0.5
-  - seo:
-      site_name: FC Fulbert
-      description: Actualités et infos du FC Fulbert
-      keywords: football, FC Fulbert, résultats, joueurs, matchs
+
 nav:
   - Accueil: index.md
   - Histoire: histoire.md
@@ -26,16 +20,15 @@ nav:
   - Matchs: matchs.md
   - Actualités: actualites.md
   - Contact: contact.md
-pages:
-  - Accueil: index.md
-  - Effectif: effectif.md
-extra:
-  seo:
-    index.md:
-      title: "FC Fulbert - Accueil"
-      description: "Site officiel du FC Fulbert : actualités, matchs, résultats et effectif."
-      keywords: "football, FC Fulbert, club, résultats, joueurs"
-    effectif.md:
-      title: "Effectif FC Fulbert"
-      description: "Découvrez l'effectif 2025 du FC Fulbert : joueurs, postes et statistiques."
-      keywords: "joueurs, effectif FC Fulbert, football"
+
+plugins:
+  - search
+  - sitemap:
+      changefreq: daily
+      priority: 0.5
+  - seo
+plugins:
+  - meta-descriptions:
+      min_length: 50
+      max_length: 160
+
