@@ -1,0 +1,6 @@
+body { background: #f4f6fa; font-family: Arial, sans-serif; }
+h1 { color: #1e3a8a; }
+.actu-box { background: #fff; border-left: 6px solid #1e3a8a; padding: 10px; margin: 10px 0; }
+button { background: #1e3a8a; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; }
+
+
