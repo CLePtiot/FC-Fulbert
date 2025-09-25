@@ -1,38 +1,68 @@
+/* --- Styles généraux --- */
 body {
-  background: #f4f4f9;
+  background: #f4f6fa;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
 }
 
+/* Titres */
 h1, h2, h3 {
-  color: #1e3a8a; /* bleu foncé */
-  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #1e3a8a; /* Bleu foncé */
 }
 
+/* Liens */
 a {
-  color: #e11d48; /* rouge */
+  color: #e11d48; /* Rouge vif */
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
+/* --- Boîtes d'actualités --- */
+.actu-box {
+  background: #fff;
+  border-left: 6px solid #1e3a8a; /* bande bleue à gauche */
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.actu-box h2 {
+  margin-top: 0;
+  color: #e11d48; /* titre en rouge */
+}
+
+/* --- Boutons stylés --- */
 button, .md-button {
   background: #1e3a8a;
-  color: white;
+  color: #fff;
+  border: none;
   border-radius: 8px;
   padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
   transition: 0.3s;
 }
 
 button:hover, .md-button:hover {
   background: #e11d48;
 }
-.actu-box {
-  background: white;
-  border-left: 6px solid #1e3a8a;
+
+/* --- Encadrés type "carte" pour les joueurs/matchs --- */
+.card {
+  background: #fff;
+  border-radius: 10px;
   padding: 15px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
+
+.card h3 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+
 
