@@ -1,4 +1,0 @@
-
-User-agent: *
-Disallow: 
-Sitemap: https://cleptiot.github.io/FC-Fulbert/sitemap.xml
