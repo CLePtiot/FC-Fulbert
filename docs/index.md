@@ -1,6 +1,6 @@
 # Bienvenue sur le site officiel du FC Fulbert ⚽
 
-![Stade](images/san-siro-min.jpg){.hero}
+![San Siro](images/san-siro-min.jpg)
 
 ## Dernières actualités
 
