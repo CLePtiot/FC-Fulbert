@@ -1,1 +1,38 @@
+body {
+  background: #f4f4f9;
+}
+
+h1, h2, h3 {
+  color: #1e3a8a; /* bleu foncé */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #e11d48; /* rouge */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, .md-button {
+  background: #1e3a8a;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+button:hover, .md-button:hover {
+  background: #e11d48;
+}
+.actu-box {
+  background: white;
+  border-left: 6px solid #1e3a8a;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
