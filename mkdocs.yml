@@ -17,13 +17,6 @@ nav:
   - Accueil: index.md
   - Contact: contact.md
 
-plugins:
-  - search
-  - seo
-  - meta-descriptions:
-      min_length: 50
-      max_length: 160
-
 extra_css:
   - css/extra.css
 
