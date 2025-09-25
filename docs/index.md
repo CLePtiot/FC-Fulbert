@@ -1,9 +1,7 @@
 # Bienvenue sur FC-Fulbert
 
-Voici une petite section d'actualités :
-
 <div class="actu-box">
-  <h2>Nouvelle mise à jour !</h2>
+  <h2>Nouvelle actualité</h2>
   <p>Le site est maintenant opérationnel avec style et couleurs !</p>
 </div>
 
