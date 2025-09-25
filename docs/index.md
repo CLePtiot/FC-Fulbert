@@ -1,3 +1,15 @@
+# Bienvenue sur le site du FC Fulbert ⚽
+
+Voici la page officielle du club !
+
+---
+
+# Dernières actualités
+
+<div class="actu-box">
+  <h2>⚽ Victoire du FC Fulbert !</h2>
+  <p>Le FC Fulbert a gagné son dernier match 3-1 🎉</p>
+</div>
 ---
 title: "FC Fulbert - Accueil"
 description: "Site officiel du FC Fulbert : actualités, matchs, résultats et effectif."
