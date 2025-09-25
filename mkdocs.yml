@@ -1,4 +1,3 @@
-
 site_name: FC Fulbert
 site_url: https://cleptiot.github.io/FC-Fulbert/
 site_description: Site officiel du FC Fulbert - actualités, joueurs, résultats et infos du club.
@@ -20,10 +19,6 @@ nav:
 
 plugins:
   - search
-  - sitemap:
-      changefreq: daily
-      priority: 0.5
-      sitemap_url: https://cleptiot.github.io/FC-Fulbert/sitemap.xml
   - seo
   - meta-descriptions:
       min_length: 50
