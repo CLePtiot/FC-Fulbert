@@ -1,6 +1,41 @@
 {% extends "base.html" %}
 
-{% block styles %}
+{% block extrahead %}
   {{ super() }}
-  <link rel="stylesheet" href="{{ base_url }}/css/extra.css?v=3">
+  {% set canonical = page.canonical_url or (config.site_url ~ page.url) %}
+  {% set title = (page.title | striptags) if page.title else config.site_name %}
+  {% if page.meta and page.meta.description %}
+    {% set desc = page.meta.description %}
+  {% else %}
+    {% set desc = config.site_description %}
+  {% endif %}
+
+  <link rel="canonical" href="{{ canonical | e }}">
+  <meta name="description" content="{{ desc | e }}">
+  <meta name="keywords" content="Football Club Chartres, Football Club Fulbert, FC Fulbert, club de football Chartres, football Chartres, Eure-et-Loir">
+
+  <!-- Google Search Console (remplace le token si tu en as un) -->
+  <meta name="google-site-verification" content="docs/googlef71b93202308c493.html">
+  {
+    "@type": "SportsTeam",
+    "name": "Football Club Fulbert",
+    "alternateName": ["FC Fulbert", "Football Club Chartres", "Football club Fulbert à Chartres"],
+    "sport": "Soccer",
+    "url": "https://clpetiot.github.io/FC-Fulbert/",
+    "sameAs": [
+      "https://twitter.com/FCFulbert",
+      "https://facebook.com/FCFulbert"
+    ],
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chartres",
+        "addressRegion": "Centre-Val de Loire",
+        "addressCountry": "FR"
+      }
+    },
+    "description": "{{ desc | replace('\"','\\\"') }}"
+  }
+  </script>
 {% endblock %}

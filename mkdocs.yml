@@ -1,11 +1,12 @@
 site_name: FC Fulbert
 site_url: https://clpetiot.github.io/FC-Fulbert/
-site_description: Site officiel du FC Fulbert - actualités, joueurs, résultats et infos du club.
+site_description: Football Club Fulbert à Chartres — actualités, résultats, entraînements, inscriptions. FC Fulbert Chartres, club de football en Eure-et-Loir.
 use_directory_urls: true
 
 theme:
   name: material
   language: fr
+  favicon: images/favicon.ico
   custom_dir: overrides
 
 extra:
@@ -18,12 +19,14 @@ extra:
 nav:
   - Accueil: index.md
   - Contact: contact.md
+  - Événements: evenements.md
 
 plugins:
   - search
-  - meta-descriptions:
-      min_length: 50
-      max_length: 160
+  - sitemap
+
+markdown_extensions:
+  - meta
 
 extra_css:
-  - css/extra.css?v=2
+  - css/extra.css?v=20251001

@@ -1,5 +1,13 @@
-/* Test TEMPORAIRE très visible */
-* { outline: 3px solid magenta !important; }
-body { background: #111 !important; }
+/* Test de chargement (retire ensuite) */
 .md-header, .md-tabs { background: #0b5fff !important; }
 a { color: #ff5a0b !important; }
+
+/* Couleurs Material (propres) */
+:root {
+  --md-primary-fg-color: #0b5fff;
+  --md-accent-fg-color: #ff5a0b;
+}
+
+/* Exemples d’overrides */
+.md-typeset h1, .md-typeset h2 { letter-spacing: 0.2px; }
+.md-nav__link--active, .md-nav__link:hover { color: #ff5a0b !important; }
