@@ -29,7 +29,3 @@
   <h3>Alex Martin</h3>
   <p>Gardien - 5 clean sheets cette saison</p>
 </div>
-
-## Contact
-
-Pour nous contacter : [contact@fc-fulbert.fr](mailto:contact@fc-fulbert.fr)
