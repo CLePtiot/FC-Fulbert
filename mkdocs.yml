@@ -1,5 +1,5 @@
 site_name: FC Fulbert
-site_url: https://cleptiot.github.io/FC-Fulbert/
+site_url: https://clpetiot.github.io/FC-Fulbert/
 site_description: Site officiel du FC Fulbert - actualités, joueurs, résultats et infos du club.
 use_directory_urls: true
 
@@ -25,4 +25,17 @@ plugins:
       max_length: 160
 
 extra_css:
-  - css/extra.css
+  - css/extra.css?v=20251001
+
+.md-header, .md-tabs { background: #0b5fff !important; }
+a { color: #ff5a0b !important; }
+
+/* Couleurs Material via variables CSS */
+:root {
+  --md-primary-fg-color: #0b5fff;
+  --md-accent-fg-color: #ff5a0b;
+}
+
+/* Exemples de sélecteurs Material utiles */
+.md-nav__title { font-weight: 700; }
+.md-typeset h1, .md-typeset h2 { letter-spacing: 0.2px; }
