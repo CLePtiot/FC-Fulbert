@@ -6,6 +6,7 @@ use_directory_urls: true
 theme:
   name: material
   language: fr
+  favicon: images/favicon.ico
 
 extra:
   social:
@@ -25,4 +26,4 @@ plugins:
       max_length: 160
 
 extra_css:
-  - css/extra.css?v=20251001
+  - css/extra.css?v=1
