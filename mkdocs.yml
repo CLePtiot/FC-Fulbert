@@ -6,7 +6,6 @@ use_directory_urls: true
 theme:
   name: material
   language: fr
-  favicon: images/favicon.ico
 
 extra:
   social:
