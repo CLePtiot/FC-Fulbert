@@ -25,4 +25,4 @@ plugins:
       max_length: 160
 
 extra_css:
-  - docs/css/extra.css
+  - css/extra.css
